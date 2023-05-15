@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&family=Reem+Kufi&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.conteaner {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.logo__name {
+    font-size: 1.4rem;
+    color: #91916C;
+    font-weight: 600;
+}
+
+nav {
+    height: 95px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__ul {
+    display: flex;
+    gap: 76px;
+}
+
+.section__main {
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    gap: 96px;
+
+}
+
+.lorem {
+    font-family: 'Playfair Display';
+    color: #E5A985;
+    font-size: 56px;
+    font-weight: 400;
+}
+
+.right__text {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.right__text>p {
+    font-size: 1.2rem;
+    width: 60%;
+}
+
+.form>input {
+    width: 380px;
+    height: 35px;
+    background: #E5E5E5;
+    border-radius: 8px 0px 0px 8px;
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+}
+
+
+.form>button {
+    background-color: #91916C;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    width: 100px;
+    height: 53px;
+    border-radius: 0px 8px 8px 0px;
+
+}
+
+.form {
+    display: flex;
+    gap: 10px;
+}
+
+.section__product {
+    background-color: #E1E1C2;
+    width: 100%;
+    height: 1024px;
+}
+
+.flex__center__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 80px;
+
+}
+
+.product {
+    color: #91916C;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+
+.flex__center__section>h4 {
+    color: #65653E;
+    font-size: 48px;
+    font-weight: 400;
+    width: 700px;
+    text-align: center;
+}
+
+.text__flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.lorem2 {
+    text-align: center;
+    color: #E5A985;
+    font-weight: 500;
+    width: 700px;
+    font-size: 48px;
+}
+
+.card1 {
+    width: 351px;
+    height: 485px;
+    background-color: #FAE3D8;
+    border-radius: 15px;
+}
+
+.card__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 700px;
+}
+
+.text__card>p {
+    width: 100%;
+    text-align: center;
+}
+
+.text__card {
+
+    display: flex;
+    align-items: flex-end;
+    height: 97px;
+}
+
+.card1:hover {
+    transform: scale(1.1);
+    transition: all 0.75s;
+    background: #91916C;
+    box-shadow: 10px 10px 35px 2px rgba(89, 56, 14, 0.1);
+    color: white;
+}
+
+.flex__center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog {
+    background: #FFEFE7;
+}
+
+.card--minin>img {
+    width: 120px;
+    height: 120px;
+
+}
+
+.card--minin {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.card--minin>p {
+    width: 200px;
+}
+
+.mai {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    justify-content: center;
+    height: 400px;
+}
+
+.footer {
+    width: 100%;
+    background: #91916C;
+}
+
+.lore {
+    font-size: 46px;
+    color: #65653E;
+    font-weight: 500;
+    text-align: center;
+}
+
+.nm {
+    font-size: 46px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.flex__flex {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+
+
+}
+
+.input>input {
+    width: 299px;
+    height: 35px;
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+    background: rgba(225, 225, 194, 0.4);
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.inptu1>input {
+    margin: 10px 0;
+    width: 620px;
+    height: 35px;
+    padding: 10px 10px;
+    outline: none;
+    background: rgba(225, 225, 194, 0.4);
+    border-radius: 8px;
+    border: none;
+}
+
+
+.inptu1>button {
+    background: #E5A985;
+    border-radius: 8px;
+    width: 645px;
+    height: 35px;
+    border: none;
+    font-size: 1.2rem;
+    color: white;
+}
